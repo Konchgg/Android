@@ -1,0 +1,8 @@
+<resources>
+
+    <!-- Стандартная тема Material Components -->
+    <style name="Theme.PersonManagerFront" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Убираем настройки цвета, оставляем стандартные -->
+    </style>
+
+</resources>

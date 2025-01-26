@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemOrderRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textOrderTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Заказ #3: John Doe"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textOrderStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Статус: pending"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/textOrderPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сумма: 900.0"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/textOrderCreated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Создан: 2025-01-26T16:14:47.006018Z"
+        android:layout_marginTop="4dp" />
+</LinearLayout>
